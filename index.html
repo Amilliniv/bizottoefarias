@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
 
     <title>Bizotto & Farias - Advocacia</title>
 
@@ -16,14 +19,14 @@
         
         <div class="modal">
             <div class="modal-container">
-                <img id="home-img" src="./assets/img/Home.png" alt="Imagem dos advogados">
+                <img id="home-img" src="./assets/img/Home.png" alt="Imagem dos advogados" data-aos="fade-left">
                 <div class="header-content">
                     <div class="logo">
                         <img id="logo-preta" src="./assets/img/logo.png" alt="Logo da advocacia">
                         <img id="logo-branca" src="./assets/img/Logo_2.png" alt="">
                     </div>
 
-                    <div class="header-text">
+                    <div class="header-text" data-aos="fade-right">
                         <h1>Somos um escritório multidisciplinar que transforma
                             <b>desafios judiciais em resultados</b>
                         </h1>
@@ -46,11 +49,11 @@
     <section class="about" id="about">
         <div class="about-content">
 
-            <div class="about-img">
+            <div class="about-img" data-aos="flip-right">
                 <img src="./assets/img/Kassia e Bruno.jpg" alt="Imagem sobre a advocacia">
             </div>
 
-            <div class="about-text">
+            <div class="about-text" data-aos="zoom-in">
                 <h2>Nossa <span>História</span></h2>
                 <p>A Bizotto & Farias Advocacia nasceu do sonho de dois profissionais apaixonados pelo Direito e
                     comprometidos em oferecer soluções eficientes para seus clientes.</p>
@@ -92,9 +95,9 @@
 
     <section class="services" id="services">
         <div class="services-content">
-            <h2>Áreas de <span>Atuação</span></h2>
+            <h2 data-aos="zoom-out-down">Áreas de <span>Atuação</span></h2>
             <div class="services-grid">
-                <div class="row">
+                <div class="row" data-aos="flip-up">
 
                     <i class="fa-solid fa-handcuffs"></i>
                     <h3>Direito Criminal</h3>
@@ -102,7 +105,7 @@
                         atinentes ao processo.</p>
                 </div>
 
-                <div class="row">
+                <div class="row" data-aos="flip-up">
 
                     <i class="fa-solid fa-cart-shopping"></i>
                     <h3>Direito Cível | Consumidor</h3>
@@ -110,7 +113,7 @@
                         buscamos resolver questões de forma extrajudicial.</p>
                 </div>
 
-                <div class="row">
+                <div class="row" data-aos="flip-up">
 
                     <i class="fa-solid fa-helmet-safety"></i>
                     <h3>Direito Trabalhista</h3>
@@ -119,7 +122,7 @@
                         questão.</p>
                 </div>
 
-                <div class="row">
+                <div class="row" data-aos="flip-up">
 
                     <i class="fa-solid fa-people-roof"></i>
                     <h3>Direito de Família</h3>
@@ -128,7 +131,7 @@
                     </p>
                 </div>
 
-                <div class="row">
+                <div class="row" data-aos="flip-up">
 
                     <i class="fa-solid fa-piggy-bank"></i>
                     <h3>Direito Previdenciário</h3>
@@ -136,7 +139,7 @@
                         auxílio por invalidez permanente, entre outros? Nós podemos te ajudar!</p>
                 </div>
 
-                <div class="row">
+                <div class="row" data-aos="flip-up">
 
                     <i class="fa-solid fa-house-chimney-user"></i>
                     <h3>Direito Imobiliário</h3>
@@ -144,7 +147,7 @@
                         até ações de despejo, usucapião, reintegração de posse, entre outras.</p>
                 </div>
 
-                <div class="row">
+                <div class="row" data-aos="flip-up">
 
                     <i class="fa-solid fa-building-columns"></i>
                     <h3>Direito Bancário | Cobranças</h3>
@@ -152,7 +155,7 @@
                         seus interesses financeiros.</p>
                 </div>
 
-                <div class="row">
+                <div class="row" data-aos="flip-up">
 
                     <i class="fa-solid fa-scale-balanced"></i>
                     <h3>Consultoria Jurídica</h3>
@@ -166,9 +169,9 @@
 
     <section class="team" id="team">
         <div class="team-content">
-            <h2>Nossa <span>Equipe</span></h2>
+            <h2 data-aos="zoom-in-down">Nossa <span>Equipe</span></h2>
 
-            <div class="cards">
+            <div class="cards" data-aos="zoom-in-up">
                 <div class="card-content">
                     <div class="container-img">
                         <img src="./assets/img/Bruno.jpg" alt="Advogado Bruno">
@@ -202,7 +205,7 @@
 
     <section class="semi-footer" id="contact">
         <div class="semi-footer-content">
-            <div class="contact">
+            <div class="contact" data-aos="zoom-in-up">
                 <div class="contact-text">
                     <h2>Onde <span>Atendemos</span></h2>
                     <p>Nosso escritório sede está localizado em Ponte Alta/SC, mas realizamos atendimentos presenciais em
@@ -239,7 +242,7 @@
             </div>
 
 
-            <div class="map">
+            <div class="map" data-aos="zoom-in-down">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.499128138282!2d-50.3799578!3d-27.484848600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x229c005270a15283%3A0x611b87d5fabc7a50!2sBizotto%20e%20Farias%20Advocacia%20e%20Consultoria!5e0!3m2!1spt-BR!2sbr!4v1738708954937!5m2!1spt-BR!2sbr"
                     width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
@@ -275,7 +278,7 @@
         <img src="./assets/img/logo-wpp.png" alt="Botão whatsapp" />
     </a>
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/7b08abc62f.js" crossorigin="anonymous"></script>
 </body>
 

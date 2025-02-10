@@ -39,14 +39,14 @@ body {
 }
 
 .modal {
-    
+    width: 100%;
     background-color: #f4f4f4;
     height: 100vh;
 }
 
 
 .modal-container {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: row-reverse;
     padding: 40px 0;
@@ -143,6 +143,7 @@ body {
     flex-direction: column;
     gap: 120px;
     padding-bottom: 100px;
+    width: 100%;
 }
 
 .about-content {
@@ -221,6 +222,7 @@ body {
 .services {
     background: var(--bg-color);
     padding: 10rem 8% 2rem;
+    width: 100%;
 }
 
 .services-content {
