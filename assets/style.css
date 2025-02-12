@@ -779,17 +779,15 @@ footer {
         display: none;
     }
 
-    .navbar a {
-        font-size: 1.5rem;
-        font-weight: 400;
-        color: var(--bg-color);
+    .header-content .navbar {
+        display: none;
     }
 
-   
     .modal-container {
         background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./img/Home.png);
         background-repeat: no-repeat;
         background-size: cover; 
+        width: 100%;
     }
 
     .header-content {
@@ -911,11 +909,17 @@ footer {
     .header-content h1 {
         font-size: 2.4rem;
         text-align: left;
-
     }
 
-    .header-content {
-        gap: 20px; 
+    .header-content .logo {
+        padding-bottom: 90px;
+    }
+
+    .modal-container .header-content {
+        align-items: center;
+        justify-content: start;
+        gap: 10rem;
+        
     }
 
     .services-content {
@@ -923,6 +927,10 @@ footer {
     }
     .services-grid .row {
         width: 290px;
+    }
+
+    .contact-item .item p {
+        font-size: 13px;
     }
 
 
