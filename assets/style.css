@@ -655,10 +655,6 @@ footer {
     .contact h2 {
         font-size: 3rem;
     }
-    .contact p {
-        font-size: 1.4rem
-    }
-
 }
 
 @media (max-width:940px) {
@@ -879,7 +875,7 @@ footer {
     }
 
     .contact .contact-item p {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .contact-item {
@@ -934,7 +930,9 @@ footer {
         width: 290px;
     }
 
-    .contact-item .item p {
-        font-size: 13px;
+    @supports (-webkit-touch-callout: none) {
+        .contact-item .item p {
+            font-size: 1.2rem;
+        }
     }
 }
