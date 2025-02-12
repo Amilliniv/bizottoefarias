@@ -926,6 +926,8 @@ footer {
     @supports (-webkit-touch-callout: none) {
         .contact-item .item p {
             font-size: 1.2rem;
+            -webkit-text-size-adjust: none;
+            text-size-adjust: none;
         }
     }
 }
