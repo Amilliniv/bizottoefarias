@@ -751,9 +751,6 @@ footer {
     .contact-item  a{
         font-size: 3rem;
     }
-    .contact-item .item p{
-        font-size: 1.3rem;
-    }
 
     .map iframe {
         width: 100vw;
@@ -872,10 +869,6 @@ footer {
         font-size: 1.8rem;
         width: 90vw;
         align-self: center;
-    }
-
-    .contact .contact-item p {
-        font-size: 1.3rem;
     }
 
     .contact-item {
