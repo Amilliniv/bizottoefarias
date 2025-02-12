@@ -143,7 +143,8 @@ body {
     flex-direction: column;
     gap: 120px;
     padding-bottom: 100px;
-    width: 100%;
+    width: 100vw;
+    box-sizing: border-box;
 }
 
 .about-content {
@@ -222,7 +223,8 @@ body {
 .services {
     background: var(--bg-color);
     padding: 10rem 8% 2rem;
-    width: 100%;
+    width: 100vw;
+    box-sizing: border-box;
 }
 
 .services-content {
@@ -774,7 +776,10 @@ footer {
 
 @media (max-width:769px) {
     
-   
+    body {
+        overflow-x: hidden;
+    }
+
     #home-img {
         display: none;
     }
@@ -932,6 +937,4 @@ footer {
     .contact-item .item p {
         font-size: 13px;
     }
-
-
 }
