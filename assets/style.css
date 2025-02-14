@@ -40,7 +40,7 @@ body {
 
 .modal {
     width: 100%;
-    background-color: #f4f4f4;
+    background-color: var(--bg-color);
     height: 100vh;
 }
 
@@ -582,8 +582,23 @@ footer {
   }
 
 
+/* ------- ScrollBar -----------*/
+    
 
-  /* ------- Responsive -----------*/
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+    ::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+    ::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+}
+
+
+/* ------- Responsive -----------*/
 
 
 @media (max-width:1380px) {
